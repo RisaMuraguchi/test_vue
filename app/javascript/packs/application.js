@@ -8,7 +8,14 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-require('./hello_vue.js')
+import "jquery";
+import "popper.js";
+import "bootstrap";
+import "../stylesheets/application";
+
+import 'vue-light-bootstrap-dashboard/dist/vue-light-bootstrap-dashboard.css'
+import 'vue-light-bootstrap-dashboard/dist/vue-light-bootstrap-dashboard.js'
+
 
 Rails.start()
 Turbolinks.start()
